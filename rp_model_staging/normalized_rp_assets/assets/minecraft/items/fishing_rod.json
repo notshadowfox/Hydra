@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:fishing_rod/cast",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "ultraroyales:ghlochester",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester_baitless"
+          }
+        },
+        {
+          "when": "ultraroyales:ghlochester_anime",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester_anime"
+          }
+        },
+        {
+          "when": "hydra:ghlochester_anime",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester_anime"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod_cast"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "ultraroyales:ghlochester",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester"
+          }
+        },
+        {
+          "when": "ultraroyales:ghlochester_anime",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester_anime"
+          }
+        },
+        {
+          "when": "hydra:ghlochester_anime",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/ghlochester_anime"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      }
+    }
+  }
+}

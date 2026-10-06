@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_worldgen:core_plains",
+    "hydra_worldgen:rocklands",
+    "hydra_worldgen:hydra_badlands"
+  ]
+}

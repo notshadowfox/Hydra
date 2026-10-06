@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:sponge_saber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/sponge_saber"
+        }
+      },
+      {
+        "when": "ultraroyales:wet_sponge_saber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/wet_sponge_saber"
+        }
+      },
+      {
+        "when": "ultraroyales:active_sponge_saber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/sponge_saber_active"
+        }
+      },
+      {
+        "when": "ultraroyales:dry_sponge_saber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/sponge_saber_dry"
+        }
+      },
+      {
+        "when": "ultraroyales:sponge_saber_samurai",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/sponge_saber_active"
+        }
+      },
+      {
+        "when": "ultraroyales:wet_sponge_saber_samurai",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/sponge_saber_active"
+        }
+      },
+      {
+        "when": "hydra:quartz_diamond_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gilded/quartz_diamond_sword"
+        }
+      },
+      {
+        "when": "ultraroyales:druids_daggers",
+        "model": {
+          "type": "minecraft:model",
+          "model": "ultraroyales:item/druids_daggers"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_sword"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 54170605,
+    "separation": 3,
+    "spacing": 8
+  },
+  "structures": [
+    {
+      "structure": "hydra_structures:noob_house",
+      "weight": 1
+    }
+  ]
+}

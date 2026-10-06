@@ -1,0 +1,297 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:dwarvenbow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_2"
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "hydra:item/legendary/dwarven_bow_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/dwarven_bow"
+          }
+        }
+      },
+      {
+        "when": "ultraroyales:dwarven_bow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_2"
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "hydra:item/legendary/dwarven_bow_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/dwarven_bow"
+          }
+        }
+      },
+      {
+        "when": "hydra:dwarvenbow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_2"
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "hydra:item/legendary/dwarven_bow_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/dwarven_bow"
+          }
+        }
+      },
+      {
+        "when": "hydra:dwarven_bow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_2"
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "hydra:item/legendary/dwarven_bow_pulling_3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "hydra:item/legendary/dwarven_bow_pulling_0"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "hydra:item/legendary/dwarven_bow"
+          }
+        }
+      },
+      {
+        "when": "ultraroyales:dwarvenbow_ocean",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_ocean"
+        }
+      },
+      {
+        "when": "ultraroyales:dwarven_bow_ocean",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_ocean"
+        }
+      },
+      {
+        "when": "hydra:dwarvenbow_ocean",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_ocean"
+        }
+      },
+      {
+        "when": "hydra:dwarven_bow_ocean",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_ocean"
+        }
+      },
+      {
+        "when": "ultraroyales:fractial_dwarvenbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "ultraroyales:fractal_dwarvenbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "ultraroyales:dwarvenbow_resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "ultraroyales:dwarven_bow_resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "hydra:fractial_dwarvenbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "hydra:fractal_dwarvenbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "hydra:dwarvenbow_resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      },
+      {
+        "when": "hydra:dwarven_bow_resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/dwarven_bow_resin"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "scale": 0.05,
+        "entries": [
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_1"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_2"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow_pulling_0"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bow"
+      }
+    }
+  }
+}

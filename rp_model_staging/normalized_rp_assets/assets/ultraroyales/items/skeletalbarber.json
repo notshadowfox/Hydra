@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:skeletalbarber_piglin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/skeletal_barber_piglin"
+        }
+      },
+      {
+        "when": "ultraroyales:skeletal_barber_piglin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/skeletal_barber_piglin"
+        }
+      },
+      {
+        "when": "ultraroyales:frozenbarber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/frozen_barber"
+        }
+      },
+      {
+        "when": "ultraroyales:frozen_barber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/frozen_barber"
+        }
+      },
+      {
+        "when": "hydra:frozenbarber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/frozen_barber"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "hydra:item/legendary/skeletal_barber"
+    }
+  }
+}

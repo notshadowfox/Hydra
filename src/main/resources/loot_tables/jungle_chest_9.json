@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 4.0, "max": 6.0 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 },
+            { "function": "minecraft:enchant_with_levels", "levels": 16 }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 8,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 },
+            { "function": "minecraft:enchant_with_levels", "levels": 12 }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 22,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 14.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 16,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 14,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 12.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks",
+          "weight": 10,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4.0, "max": 10.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

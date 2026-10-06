@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_worldgen:hydra_ocean",
+    "hydra_worldgen:hydra_shore",
+    "hydra_worldgen:core_plains",
+    "hydra_worldgen:hydra_forest",
+    "hydra_worldgen:dense_forest",
+    "hydra_worldgen:rocklands",
+    "hydra_worldgen:overgrown_fields",
+    "hydra_worldgen:floodlands",
+    "hydra_worldgen:sparse_jungle",
+    "hydra_worldgen:meadow_ridges",
+    "hydra_worldgen:hydra_desert_dunes",
+    "hydra_worldgen:hydra_badlands"
+  ]
+}

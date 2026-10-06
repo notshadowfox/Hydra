@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:knightssaddle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/knights_saddle"
+        }
+      },
+      {
+        "when": "ultraroyales:knights_saddle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/knights_saddle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/saddle"
+    }
+  }
+}

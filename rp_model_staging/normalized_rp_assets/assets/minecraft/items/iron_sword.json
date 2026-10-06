@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "hydra:quartz_iron_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gilded/quartz_iron_sword"
+        }
+      },
+      {
+        "when": "ultraroyales:ghostknife",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/ghost_knife"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_sword"
+    }
+  }
+}

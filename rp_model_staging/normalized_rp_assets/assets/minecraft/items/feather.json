@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "hydra:spleef_super_feather",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/spleef/super_feather"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/feather"
+    }
+  }
+}

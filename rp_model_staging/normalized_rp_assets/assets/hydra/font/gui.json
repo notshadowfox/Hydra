@@ -1,0 +1,326 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/cosmetics.png",
+      "ascent": 13,
+      "height": 166,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/hats.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/hydra_styles.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kill_effects.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kill_messages.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/socials.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/weapon_skins.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/trails.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/trims.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/navigator.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/navigatorminigames_2.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/gamemode_switcher.png",
+      "ascent": 13,
+      "height": 154,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/tab_header_logo.png",
+      "ascent": 24,
+      "height": 28,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/hydra_2.png",
+      "ascent": 40,
+      "height": 44,
+      "chars": ["\ue13d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_all.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue121"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_requests.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue122"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_blocked.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue123"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/party_leader.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue124"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/party_member.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue125"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/favorites.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue126"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_legendary.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue127"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_crafting_utility.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue128"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_crafting_legendary.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue129"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/navigator_hunger_games.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/shard_open.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/shard_opening.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_1.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_2.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_3.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue12f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_4.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue130"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_5.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue131"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_6.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue132"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_7.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue133"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/battlepass_page_8.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue134"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/auction_house_first_page.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue135"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/auction_house_middle_page.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue136"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/auction_house_last_page.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue137"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/auction_house_single_page.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue138"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kit_editor.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue139"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/settingspage1.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue13b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/settingspage2.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue13c"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "feature": "hydra_wastes:basalt_wall",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 44
+    },
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 28
+        },
+        "max_inclusive": {
+          "absolute": 104
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

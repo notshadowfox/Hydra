@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/gray_stained_glass_pane"
+    },
+    "cases": [
+      {
+        "when": "hydra:gui/window",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/window"
+        }
+      }
+    ]
+  }
+}

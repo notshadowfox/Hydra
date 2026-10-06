@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hydra:item/gui/settings_arrow_right"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": -192.0,
+    "max_exclusive": 31.0,
+    "when_in_range": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": "hydra_valous:shared_caves",
+            "argument2": "hydra_valous:lush_caverns"
+          },
+          "argument2": {
+            "type": "minecraft:min",
+            "argument1": "hydra_valous:molten_caves",
+            "argument2": "hydra_valous:sculk_basins"
+          }
+        },
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_value": 0.32,
+            "from_y": -192,
+            "to_value": -0.20,
+            "to_y": -176
+          },
+          "argument2": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_value": -0.20,
+            "from_y": 12,
+            "to_value": 0.32,
+            "to_y": 30
+          }
+        }
+      }
+    },
+  "when_out_of_range": 64.0
+}

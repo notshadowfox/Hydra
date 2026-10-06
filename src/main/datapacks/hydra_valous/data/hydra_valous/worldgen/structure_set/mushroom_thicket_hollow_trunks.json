@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "hydra_valous:mushroom_thicket_hollow_trunks",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 14,
+    "separation": 5,
+    "salt": 726303,
+    "spread_type": "triangular"
+  }
+}

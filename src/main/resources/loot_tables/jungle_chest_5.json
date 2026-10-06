@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 4.0, "max": 6.0 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 18,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 4,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 },
+            { "function": "minecraft:enchant_with_levels", "levels": 10 }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 14,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 },
+            { "function": "minecraft:enchant_with_levels", "levels": 14 }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 22,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3.0, "max": 7.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 14,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 18,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3.0, "max": 8.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 16,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 14.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 16.0 } }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 6,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

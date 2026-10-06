@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hydra:item/gilded/quartz_golden_sword"
+  }
+}

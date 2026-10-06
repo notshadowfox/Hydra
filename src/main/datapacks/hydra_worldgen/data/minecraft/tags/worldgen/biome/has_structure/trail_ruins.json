@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_worldgen:hydra_forest",
+    "hydra_worldgen:meadow_ridges",
+    "hydra_worldgen:overgrown_fields"
+  ]
+}

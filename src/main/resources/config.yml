@@ -1,0 +1,36 @@
+modules:
+  ultraroyales:
+    enabled: true
+
+combat-master:
+  bossrush-visual-test: false # Requires the optional BetterModel companion.
+  transition:
+    dense-skull-test: false # Optional dense skull reveal.
+    golden-apples: 8
+    arrows: 8
+
+# Numbered Kit Editor void worlds use this map at local origin, with fixed entry/preview facing.
+kit-editor:
+  map-room:
+    layout-version: 3
+    paste-y: 50
+    post-y: 31
+    label-y: 33.35
+    header-y: 35.7
+    mannequin:
+      x: 9
+      z: 37
+    controls:
+      reset: { x: 5, z: 45 }
+      confirm: { x: 3, z: 42 }
+      cancel: { x: 5, z: 39 }
+
+network:
+  enabled: false
+  server_role: STANDALONE
+  hg_handshake_development: false
+  node_name: standalone
+  coordinator_url: http://127.0.0.1:8765
+  shared_secret: CHANGE_ME
+  heartbeat_seconds: 2
+  request_timeout_millis: 3000

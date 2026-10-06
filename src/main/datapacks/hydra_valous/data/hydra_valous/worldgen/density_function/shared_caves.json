@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:cave_chamber_a",
+            "xz_scale": 0.34,
+            "y_scale": 0.22
+          }
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:cave_chamber_b",
+            "xz_scale": 0.36,
+            "y_scale": 0.24
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:abs",
+        "argument": "hydra_valous:cave_detail"
+      }
+    },
+    "argument2": -0.10
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:connector_a",
+            "xz_scale": 0.58,
+            "y_scale": 0.38
+          }
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:connector_b",
+            "xz_scale": 0.58,
+            "y_scale": 0.38
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:abs",
+        "argument": "hydra_valous:cave_detail"
+      }
+    },
+    "argument2": -0.065
+  }
+}

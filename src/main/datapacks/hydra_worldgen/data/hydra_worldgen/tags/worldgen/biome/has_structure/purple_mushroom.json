@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_worldgen:dense_forest",
+    "hydra_worldgen:sparse_jungle"
+  ]
+}

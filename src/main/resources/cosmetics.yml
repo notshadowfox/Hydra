@@ -1,0 +1,289 @@
+head_cosmetics:
+  tophat:
+    name: "Top Hat"
+    material: "COAL"
+    item_model: "hydra:tophat"
+    custom_model_data: 1000
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "common"
+    menu_order: 10
+
+  spinning_tophat:
+    name: "Spinning Top Hat"
+    material: "COAL"
+    item_model: "hydra:spinning_tophat_00"
+    custom_model_data: 1010
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "dev_only"
+    rarity: "limited"
+    menu_order: 11
+
+  halo:
+    name: "Halo"
+    material: "COAL"
+    item_model: "hydra:halo"
+    custom_model_data: 1001
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "common"
+    menu_order: 20
+
+  glasses:
+    name: "Glasses"
+    material: "COAL"
+    item_model: "hydra:glasses"
+    custom_model_data: 1002
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "common"
+    menu_order: 30
+
+  moneyglasses:
+    name: "Money Glasses"
+    material: "COAL"
+    item_model: "hydra:moneyglasses"
+    custom_model_data: 1003
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "rare"
+    menu_order: 40
+
+  magnet_helmet:
+    name: "Magnet Helmet"
+    material: "COAL"
+    item_model: "hydra:magnet_helmet"
+    custom_model_data: 1004
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "rare"
+    menu_order: 50
+
+  tie:
+    name: "Tie"
+    material: "COAL"
+    item_model: "hydra:tie"
+    custom_model_data: 1005
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 60
+
+  blue_bandanna:
+    name: "Blue Bandanna"
+    material: "COAL"
+    item_model: "hydra:blue_bandanna"
+    custom_model_data: 1006
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "rare"
+    menu_order: 70
+
+  trick_or_slime_hat:
+    name: "Trick or Slime Hat"
+    material: "COAL"
+    item_model: "hydra:trick_or_slime_hat"
+    custom_model_data: 1007
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "event"
+    rarity: "epic"
+    menu_order: 80
+
+  cardboard_box_hat:
+    name: "Cardboard Box Hat"
+    material: "COAL"
+    item_model: "hydra:cardboard_box_hat"
+    custom_model_data: 1008
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "common"
+    menu_order: 90
+
+  tnt_hat:
+    name: "TNT Hat"
+    material: "COAL"
+    item_model: "hydra:tnt_hat"
+    custom_model_data: 1009
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "rare"
+    menu_order: 100
+
+  hydra_crown:
+    name: "Hydra Crown"
+    material: "GOLDEN_HELMET"
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "event"
+    rarity: "limited"
+    menu_order: 200
+
+  void_halo:
+    name: "Void Halo"
+    material: "CHAINMAIL_HELMET"
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "prestige"
+    rarity: "legendary"
+    menu_order: 210
+
+  ascendant_crest:
+    name: "Ascendant Crest"
+    material: "IRON_HELMET"
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "prestige"
+    rarity: "epic"
+    menu_order: 220
+
+  venom_hood:
+    name: "Venom Hood"
+    material: "LEATHER_HELMET"
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "chamber"
+    rarity: "rare"
+    menu_order: 230
+
+  rift_crown:
+    name: "Rift Crown"
+    material: "NETHERITE_HELMET"
+    type: "hat"
+    category: "hat"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "prestige"
+    rarity: "legendary"
+    menu_order: 240
+
+  ghlochester_anime:
+    name: "Ghlochester Anime"
+    material: "FISHING_ROD"
+    item_model: "ultraroyales:ghlochester_anime"
+    type: "legendary"
+    legendary_key: "ghlochester"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 200
+
+  skeletal_barber_piglin:
+    name: "Skeletal Barber Piglin"
+    material: "NETHERITE_SWORD"
+    item_model: "ultraroyales:skeletalbarber_piglin"
+    type: "legendary"
+    legendary_key: "skeletal_barber"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 210
+
+  frozen_barber:
+    name: "Frozen Barber"
+    material: "NETHERITE_SWORD"
+    item_model: "hydra:frozenbarber"
+    type: "legendary"
+    legendary_key: "skeletal_barber"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 215
+
+  dwarven_bow_ocean:
+    name: "Dwarf Bow Ocean"
+    material: "BOW"
+    item_model: "ultraroyales:dwarvenbow_ocean"
+    type: "legendary"
+    legendary_key: "dwarven_bow"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 205
+
+  sponge_saber_samurai:
+    name: "Sponge Saber Samurai"
+    material: "DIAMOND_SWORD"
+    item_model: "ultraroyales:sponge_saber_samurai"
+    type: "legendary"
+    legendary_key: "sponge_saber"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 220
+
+  electric_conch_futuristic:
+    name: "Electric Conch Futuristic"
+    material: "TRIDENT"
+    item_model: "ultraroyales:electricconch_futuristic"
+    type: "legendary"
+    legendary_key: "electric_conch"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 230
+
+  electric_conch_obsidian:
+    name: "Electric Conch Obsidian"
+    material: "TRIDENT"
+    item_model: "ultraroyales:electricconch_obsidian"
+    type: "legendary"
+    legendary_key: "electric_conch"
+    category: "legendary skin"
+    visible_in_lobby: true
+    visible_in_match: false
+    unlock_type: "default"
+    rarity: "legendary"
+    menu_order: 240

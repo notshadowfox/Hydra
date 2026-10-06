@@ -1,0 +1,544 @@
+{
+  "biomes": [
+    {
+      "biome": "hydra_worldgen:hydra_ocean",
+      "parameters": {
+        "continentalness": [
+          -1.0,
+          -0.9
+        ],
+        "depth": [
+          -1.0,
+          -0.28
+        ],
+        "erosion": [
+          -1.0,
+          1.0
+        ],
+        "humidity": [
+          -1.0,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.05,
+          0.68
+        ],
+        "weirdness": [
+          -1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:hydra_shore",
+      "parameters": {
+        "continentalness": [
+          -0.9,
+          -0.86
+        ],
+        "depth": [
+          -0.02,
+          0.08
+        ],
+        "erosion": [
+          0.18,
+          0.82
+        ],
+        "humidity": [
+          -1.0,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.12,
+          0.72
+        ],
+        "weirdness": [
+          -0.4,
+          0.4
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:hydra_desert_dunes",
+      "parameters": {
+        "continentalness": [
+          -0.05,
+          0.9
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.35,
+          1.0
+        ],
+        "humidity": [
+          -1.0,
+          -0.35
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.68,
+          1.0
+        ],
+        "weirdness": [
+          -0.85,
+          0.85
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:hydra_badlands",
+      "parameters": {
+        "continentalness": [
+          0.24,
+          0.82
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          -0.18,
+          0.28
+        ],
+        "humidity": [
+          -1.0,
+          -0.45
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.9,
+          1.0
+        ],
+        "weirdness": [
+          0.38,
+          1.0
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:core_plains",
+      "parameters": {
+        "continentalness": [
+          0.05,
+          0.9
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.34,
+          1.0
+        ],
+        "humidity": [
+          -0.65,
+          0.25
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.08,
+          0.8
+        ],
+        "weirdness": [
+          -0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:core_plains",
+      "parameters": {
+        "continentalness": [
+          0.1,
+          0.78
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.48,
+          1.0
+        ],
+        "humidity": [
+          -0.4,
+          0.08
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.74,
+          0.9
+        ],
+        "weirdness": [
+          -0.7,
+          0.7
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:hydra_forest",
+      "parameters": {
+        "continentalness": [
+          0.16,
+          0.72
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.14,
+          0.58
+        ],
+        "humidity": [
+          0.2,
+          0.55
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.02,
+          0.72
+        ],
+        "weirdness": [
+          -0.62,
+          0.18
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:hydra_forest",
+      "parameters": {
+        "continentalness": [
+          0.18,
+          0.72
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.2,
+          0.6
+        ],
+        "humidity": [
+          0.08,
+          0.48
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.3,
+          0.12
+        ],
+        "weirdness": [
+          0.18,
+          0.7
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:dense_forest",
+      "parameters": {
+        "continentalness": [
+          0.18,
+          0.68
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.12,
+          0.42
+        ],
+        "humidity": [
+          0.55,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.08,
+          0.62
+        ],
+        "weirdness": [
+          -0.45,
+          0.1
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:dense_forest",
+      "parameters": {
+        "continentalness": [
+          0.2,
+          0.7
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.1,
+          0.4
+        ],
+        "humidity": [
+          0.45,
+          0.82
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.25,
+          0.18
+        ],
+        "weirdness": [
+          0.0,
+          0.35
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:rocklands",
+      "parameters": {
+        "continentalness": [
+          0.34,
+          1.0
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          -1.0,
+          -0.58
+        ],
+        "humidity": [
+          -1.0,
+          0.2
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.25,
+          0.5
+        ],
+        "weirdness": [
+          0.52,
+          1.0
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:rocklands",
+      "parameters": {
+        "continentalness": [
+          0.34,
+          1.0
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          -1.0,
+          -0.58
+        ],
+        "humidity": [
+          -1.0,
+          0.2
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.25,
+          0.5
+        ],
+        "weirdness": [
+          -1.0,
+          -0.72
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:overgrown_fields",
+      "parameters": {
+        "continentalness": [
+          0.08,
+          0.66
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.38,
+          0.88
+        ],
+        "humidity": [
+          0.0,
+          0.62
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.32,
+          0.88
+        ],
+        "weirdness": [
+          0.38,
+          0.82
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:overgrown_fields",
+      "parameters": {
+        "continentalness": [
+          0.08,
+          0.66
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.38,
+          0.88
+        ],
+        "humidity": [
+          0.0,
+          0.62
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.32,
+          0.88
+        ],
+        "weirdness": [
+          -0.82,
+          -0.38
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:floodlands",
+      "parameters": {
+        "continentalness": [
+          0.02,
+          0.38
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.74,
+          1.0
+        ],
+        "humidity": [
+          0.48,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.45,
+          1.0
+        ],
+        "weirdness": [
+          -0.18,
+          0.18
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:sparse_jungle",
+      "parameters": {
+        "continentalness": [
+          0.2,
+          0.58
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.16,
+          0.55
+        ],
+        "humidity": [
+          0.78,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.84,
+          1.0
+        ],
+        "weirdness": [
+          0.35,
+          0.7
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:sparse_jungle",
+      "parameters": {
+        "continentalness": [
+          0.2,
+          0.58
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.16,
+          0.55
+        ],
+        "humidity": [
+          0.78,
+          1.0
+        ],
+        "offset": 0.0,
+        "temperature": [
+          0.84,
+          1.0
+        ],
+        "weirdness": [
+          -0.7,
+          -0.35
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:meadow_ridges",
+      "parameters": {
+        "continentalness": [
+          0.34,
+          0.8
+        ],
+        "depth": [
+          -1.0,
+          1.0
+        ],
+        "erosion": [
+          0.24,
+          0.4
+        ],
+        "humidity": [
+          -0.25,
+          0.12
+        ],
+        "offset": 0.0,
+        "temperature": [
+          -0.1,
+          0.32
+        ],
+        "weirdness": [
+          -0.16,
+          0.12
+        ]
+      }
+    }
+  ]
+}

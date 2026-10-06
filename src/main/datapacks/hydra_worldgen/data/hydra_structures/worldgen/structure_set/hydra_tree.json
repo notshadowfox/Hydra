@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "hydra_structures:hydra_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 2,
+    "salt": 420175,
+    "spread_type": "triangular"
+  }
+}

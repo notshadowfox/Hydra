@@ -1,0 +1,31 @@
+{
+  "feature": "hydra_wastes:ash_basin",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 18
+    },
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 22
+        },
+        "max_inclusive": {
+          "absolute": 86
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

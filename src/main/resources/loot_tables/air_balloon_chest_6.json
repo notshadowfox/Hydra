@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2.0, "max": 3.0 },
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "weight": 10,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_sword",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } }
+              ],
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.4 }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_sword",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 1 } }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:alternatives",
+          "weight": 5,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_sword",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } }
+              ],
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.4 }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_sword",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 1 } }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:alternatives",
+          "weight": 6,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:enchanted_book",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:unbreaking": 2 } }
+              ],
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.25 }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:enchanted_book",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:unbreaking": 1 } }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 3,
+          "conditions": [
+            { "condition": "minecraft:random_chance", "chance": 0.02 }
+          ]
+        },
+
+        {
+          "type": "minecraft:alternatives",
+          "weight": 8,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bow",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:power": 2 } }
+              ],
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.4 }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bow",
+              "functions": [
+                { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:power": 1 } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:chorus_fruit", "weight": 16, "functions": [{ "function": "minecraft:set_count", "count": 4 }] },
+        { "type": "minecraft:item", "name": "minecraft:popped_chorus_fruit", "weight": 9, "functions": [{ "function": "minecraft:set_count", "count": 2 }] },
+        { "type": "minecraft:item", "name": "minecraft:end_stone", "weight": 12, "functions": [{ "function": "minecraft:set_count", "count": 6 }] },
+        { "type": "minecraft:item", "name": "minecraft:purpur_block", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": 4 }] },
+        { "type": "minecraft:item", "name": "minecraft:end_rod", "weight": 7, "functions": [{ "function": "minecraft:set_count", "count": 2 }] },
+        { "type": "minecraft:item", "name": "minecraft:ender_pearl", "weight": 8, "functions": [{ "function": "minecraft:set_count", "count": 2 }] },
+        { "type": "minecraft:item", "name": "minecraft:shulker_shell", "weight": 2, "functions": [{ "function": "minecraft:set_count", "count": 1 }] }
+      ]
+    }
+  ]
+}

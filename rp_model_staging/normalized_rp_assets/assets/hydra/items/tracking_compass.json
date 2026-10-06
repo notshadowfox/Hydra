@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:compass",
+    "target": "spawn",
+    "scale": 8.0,
+    "entries": [
+      { "threshold": 0.0, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_1" } },
+      { "threshold": 0.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_2" } },
+      { "threshold": 1.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_3" } },
+      { "threshold": 2.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_4" } },
+      { "threshold": 3.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_5" } },
+      { "threshold": 4.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_6" } },
+      { "threshold": 5.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_7" } },
+      { "threshold": 6.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_8" } },
+      { "threshold": 7.5, "model": { "type": "minecraft:model", "model": "hydra:item/tracking_compass_1" } }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "hydra:item/tracking_compass_0"
+    }
+  }
+}

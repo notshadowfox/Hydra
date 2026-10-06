@@ -1,0 +1,1 @@
+The normalized assets in normalized_rp_assets/ are overlaid on the resource-pack seed by the Gradle build. Run the packageHydraResourcePack task to package them, or run the normal build to package and validate the pack.

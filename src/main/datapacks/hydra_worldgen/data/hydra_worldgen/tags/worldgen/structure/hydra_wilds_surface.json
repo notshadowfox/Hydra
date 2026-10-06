@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_structures:noob_house",
+    "hydra_structures:spruce_hut",
+    "hydra_structures:grannys_house",
+    "hydra_structures:bridge",
+    "hydra_structures:windmill",
+    "hydra_structures:ruined_windmill",
+    "hydra_structures:castle_ruins",
+    "hydra_structures:purple_mushroom",
+    "hydra_structures:sakura_temple",
+    "hydra_structures:factory",
+    "hydra_structures:ruined_castle"
+  ]
+}

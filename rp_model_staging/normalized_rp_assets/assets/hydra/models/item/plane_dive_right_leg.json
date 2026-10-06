@@ -1,0 +1,35 @@
+{
+  "textures": {
+    "0": "hydra:item/plane_dive_skin",
+    "particle": "hydra:item/plane_dive_skin"
+  },
+  "texture_size": [64, 64],
+  "elements": [
+    {
+      "from": [-2, -12, -2],
+      "to": [2, 0, 2],
+      "faces": {
+        "up": { "uv": [2, 5, 1, 4], "texture": "#0" },
+        "down": { "uv": [3, 4, 2, 5], "texture": "#0" },
+        "north": { "uv": [1, 5, 2, 8], "texture": "#0" },
+        "south": { "uv": [3, 5, 4, 8], "texture": "#0" },
+        "west": { "uv": [2, 5, 3, 8], "texture": "#0" },
+        "east": { "uv": [0, 5, 1, 8], "texture": "#0" }
+      }
+    },
+    {
+      "from": [-2.25, -12.25, -2.25],
+      "to": [2.25, 0.25, 2.25],
+      "faces": {
+        "up": { "uv": [2, 9, 1, 8], "texture": "#0" },
+        "down": { "uv": [3, 8, 2, 9], "texture": "#0" },
+        "north": { "uv": [1, 9, 2, 12], "texture": "#0" },
+        "south": { "uv": [3, 9, 4, 12], "texture": "#0" },
+        "west": { "uv": [2, 9, 3, 12], "texture": "#0" },
+        "east": { "uv": [0, 9, 1, 12], "texture": "#0" }
+      }
+    }
+  ]
+}
+
+

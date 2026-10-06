@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hydra:item/ui/coin_shop",
+    "particle": "hydra:item/ui/coin_shop"
+  }
+}

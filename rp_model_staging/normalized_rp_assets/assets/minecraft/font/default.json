@@ -1,0 +1,395 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": -8
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_00.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_01.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_02.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_03.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_04.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_05.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_06.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_07.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_08.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_09.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_10.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_11.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/sponge_saber/water_bar_12.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/cosmetics.png",
+      "ascent": 13,
+      "height": 166,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/hats.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/hydra_styles.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kill_effects.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kill_messages.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/socials.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/weapon_skins.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/trails.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/trims.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/navigator.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/navigatorminigames_2.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/gamemode_switcher.png",
+      "ascent": 13,
+      "height": 154,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/tab_header_logo.png",
+      "ascent": 24,
+      "height": 28,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/icon/exclamation.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/icon/exclamation_orange.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/icon/exclamation_red.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/icon/locked.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_all.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue121"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_requests.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue122"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/friends_blocked.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue123"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/party_leader.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue124"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/party_member.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue125"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/favorites.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue126"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_legendary.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue127"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_crafting_utility.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue128"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/recipes_crafting_legendary.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue129"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:item/shard.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ue206"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/kit_editor.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue139"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/settingspage1.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue13b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "hydra:font/gui/settingspage2.png",
+      "ascent": 13,
+      "height": 222,
+      "chars": ["\ue13c"]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default",
+      "filter": {
+        "uniform": false
+      }
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:memory_breaker",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/beta/greek_hammer"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_axe"
+    }
+  }
+}

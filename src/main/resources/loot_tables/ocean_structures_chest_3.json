@@ -1,0 +1,303 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_cod",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 10,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 6,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 4,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 20 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 6,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "weight": 9,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "weight": 6,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 9,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 10,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "weight": 18,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8, "max": 20 } }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 3,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 15, "max": 30 } }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 14,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 4,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 14,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 4,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 12,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 12,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 3,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 18 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 20 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 3,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { "function": "minecraft:enchant_with_levels", "levels": 20 }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:luck_of_the_sea": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:water_bucket",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:coal",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }
+            ]
+        }
+        ,
+        {
+            "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+            "entries": [
+                { "type": "minecraft:item", "name": "minecraft:prismarine_shard",     "weight": 16, "functions": [ { "function": "minecraft:set_count", "count": 6 } ] },
+                { "type": "minecraft:item", "name": "minecraft:prismarine_crystals",  "weight": 12, "functions": [ { "function": "minecraft:set_count", "count": 4 } ] },
+                { "type": "minecraft:item", "name": "minecraft:kelp",                 "weight": 16, "functions": [ { "function": "minecraft:set_count", "count": 10 } ] },
+                { "type": "minecraft:item", "name": "minecraft:seagrass",             "weight": 12, "functions": [ { "function": "minecraft:set_count", "count": 6 } ] },
+                { "type": "minecraft:item", "name": "minecraft:tube_coral_block",     "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 2 } ] },
+                { "type": "minecraft:item", "name": "minecraft:tube_coral_fan",       "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 2 } ] },
+                { "type": "minecraft:item", "name": "minecraft:sea_pickle",           "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": 3 } ] },
+                { "type": "minecraft:item", "name": "minecraft:nautilus_shell",       "weight": 3,  "functions": [ { "function": "minecraft:set_count", "count": 1 } ] },
+                { "type": "minecraft:item", "name": "minecraft:heart_of_the_sea",     "weight": 1,  "functions": [ { "function": "minecraft:set_count", "count": 1 } ] },
+                { "type": "minecraft:item", "name": "minecraft:sponge",               "weight": 1,  "functions": [ { "function": "minecraft:set_count", "count": 1 } ] },
+                { "type": "minecraft:item", "name": "minecraft:turtle_scute",         "weight": 2,  "functions": [ { "function": "minecraft:set_count", "count": 1 } ] },
+                { "type": "minecraft:item", "name": "minecraft:potion",               "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_potion", "id": "minecraft:water_breathing" } ] },
+                { "type": "minecraft:item", "name": "minecraft:potion",               "weight": 5,  "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_potion", "id": "minecraft:night_vision" } ] },
+                { "type": "minecraft:item", "name": "minecraft:fishing_rod",          "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:lure": 1 } } ] },
+                { "type": "minecraft:item", "name": "minecraft:fishing_rod",          "weight": 5,  "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:luck_of_the_sea": 1 } } ] },
+                { "type": "minecraft:item", "name": "minecraft:trident",              "weight": 1,  "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:impaling": 1 } } ], "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.02 } ] },
+                { "type": "minecraft:item", "name": "minecraft:cooked_cod",           "weight": 12, "functions": [ { "function": "minecraft:set_count", "count": 6 } ] },
+                { "type": "minecraft:item", "name": "minecraft:cooked_salmon",        "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": 4 } ] },
+                { "type": "minecraft:item", "name": "minecraft:oak_boat",             "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 1 } ] },
+                { "type": "minecraft:item", "name": "minecraft:oak_door",             "weight": 6,  "functions": [ { "function": "minecraft:set_count", "count": 3 } ] }
+            ]
+        }
+    ]
+}

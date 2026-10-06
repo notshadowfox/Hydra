@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hydra:item/tracking_compass/compass_base_6"
+  }
+}

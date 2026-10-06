@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:electricconch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/electric_conch"
+        }
+      },
+      {
+        "when": "ultraroyales:electricconch_futuristic",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/electric_conch_futuristic"
+        }
+      },
+      {
+        "when": "ultraroyales:electric_conch_futuristic",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/electric_conch_futuristic"
+        }
+      },
+      {
+        "when": "ultraroyales:electricconch_obsidian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/electric_conch_obsidian"
+        }
+      },
+      {
+        "when": "ultraroyales:electric_conch_obsidian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/electric_conch_obsidian"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "head"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/trident",
+        "model": {
+          "type": "minecraft:trident"
+        }
+      }
+    }
+  }
+}

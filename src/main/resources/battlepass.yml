@@ -1,0 +1,33 @@
+active-season: beta
+
+seasons:
+  beta:
+    display-name: Beta
+    tiers: 70
+    xp-per-tier: 3000
+    gameplay:
+      hunger-games:
+        complete: 300
+        elimination: 50
+        elimination-cap: 250
+        placement:
+          first: 450
+          second: 300
+          third: 225
+          top-five: 150
+          top-ten: 75
+      minigame-roulette:
+        complete: 400
+        placement:
+          first: 500
+          second: 300
+          third: 200
+          fourth: 100
+    rewards:
+      default-free:
+        type: COINS
+        amount: 500
+      default-premium:
+        type: COINS
+        amount: 1000
+      tiers: {}

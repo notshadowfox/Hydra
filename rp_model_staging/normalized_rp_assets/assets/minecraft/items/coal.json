@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1000,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/tophat"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/halo"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/glasses"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/moneyglasses"
+        }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/magnet_helmet"
+        }
+      },
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/tie"
+        }
+      },
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/blue_bandanna"
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/trick_or_slime_hat"
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/cardboard_box_hat"
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/tnt_hat"
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/cosmetics/spinning_tophat_00"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/coal"
+    }
+  }
+}

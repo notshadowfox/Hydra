@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:netherrack"
+    },
+    "state": {
+      "Name": "minecraft:gravel"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 5,
+      "max_inclusive": 12
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:power": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+                "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+                "entries": [
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 2, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4, "minecraft:knockback": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4, "minecraft:knockback": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sweeping_edge": 2, "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 5, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2, "minecraft:looting": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4 } } ] }
+                ]
+            },
+        {
+                "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+                "entries": [
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 1, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4, "minecraft:knockback": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sweeping_edge": 2, "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2, "minecraft:sharpness": 2, "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 5, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sharpness": 2, "minecraft:sweeping_edge": 2, "minecraft:looting": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4, "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4 } } ] }
+                ]
+            },
+        {
+                "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+                "entries": [
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:feather_falling": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:mending": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:unbreaking": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:respiration": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:looting": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:depth_strider": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:power": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:quick_charge": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:efficiency": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:thorns": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:projectile_protection": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:channeling": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:protection": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:infinity": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:punch": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:impaling": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:riptide": 3 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sweeping_edge": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:sweeping_edge": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:knockback": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:smite": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:bane_of_arthropods": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:flame": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:multishot": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:piercing": 4 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:frost_walker": 2 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 4, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:aqua_affinity": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:binding_curse": 1 } } ] },
+                    { "type": "minecraft:item", "name": "minecraft:enchanted_book", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": 1 }, { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:vanishing_curse": 1 } } ] }
+                ]
+            },
+        {
+                "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+                "entries": [
+                    { "type": "minecraft:item", "name": "minecraft:sand", "weight": 18, "functions": [ { "function": "minecraft:set_count", "count": 8 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:sandstone", "weight": 8, "functions": [ { "function": "minecraft:set_count", "count": 4 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:smooth_sandstone", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": 2 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:cactus", "weight": 12, "functions": [ { "function": "minecraft:set_count", "count": 2 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:dead_bush", "weight": 12, "functions": [ { "function": "minecraft:set_count", "count": 2 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:rabbit_hide", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": 3 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:stick", "weight": 10, "functions": [ { "function": "minecraft:set_count", "count": 6 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:bone", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": 3 } ] },
+                    { "type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 5, "functions": [ { "function": "minecraft:set_count", "count": 3 } ] }
+                ]
+            }
+    ]
+}

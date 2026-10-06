@@ -1,0 +1,55 @@
+{
+  "structures": [
+    {
+      "structure": "hydra_structures:noob_house",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:spruce_hut",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:grannys_house",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:bridge",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:windmill",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:ruined_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:castle_ruins",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:purple_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:sakura_temple",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:factory",
+      "weight": 1
+    },
+    {
+      "structure": "hydra_structures:ruined_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 8,
+    "salt": 812901,
+    "spread_type": "triangular"
+  }
+}

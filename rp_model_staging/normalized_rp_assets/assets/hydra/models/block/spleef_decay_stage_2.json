@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hydra:block/spleef_decay_stage_2"
+  }
+}

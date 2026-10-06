@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:spiderstaff",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/spider_staff"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nautilus_shell"
+    }
+  }
+}

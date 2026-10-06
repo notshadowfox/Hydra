@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ultraroyales:heart",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/legendary/heart"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/resin_brick"
+    }
+  }
+}

@@ -1,0 +1,493 @@
+name: HydraMain
+version: 2.0.257
+main: hgloot.plugin.HGLootPlugin
+api-version: '1.21'
+author: Hydra Network
+description: Native HG loot plugin with GUI, chest generation, and audit books
+depend: [voicechat]
+
+commands:
+  menu:
+    description: Opens the Hydra player menu
+    usage: /menu
+  admin:
+    description: Opens the Hydra admin root and staff submenus
+    usage: /admin [gift <player|@a>|battlepass|br switch <profile>|hg|bossrush|bosses|weapons|waves|structures|cosmetics|economy|wallet|warnings|ah|hotbar|sethub|debug|maintenance|transition test]
+  maintenance:
+    description: Toggle Hydra maintenance mode
+    usage: /maintenance <on|off|status|add|remove> [player]
+  br:
+    description: Battle Royale queue commands
+    usage: /br <join|leave|status|forcestart|win|cleanup|help>
+  hg:
+    description: Hunger Games queue commands
+    usage: /hg <join|leave|status|info|forcestart|win|cleanup|help>
+  spleef:
+    description: Spleef minigame queue commands
+    permission: hgloot.admin
+    usage: /spleef <join|leave|status>
+  voidroulette:
+    description: Void Roulette minigame queue commands
+    permission: hgloot.admin
+    aliases: [vr]
+    usage: /voidroulette <join|leave|status>
+  maceroulette:
+    description: Alias for Void Roulette minigame queue commands
+    permission: hgloot.admin
+    usage: /maceroulette <join|leave|status>
+  bridge:
+    description: Bridge minigame queue commands
+    permission: hgloot.admin
+    usage: /bridge <join|leave|status>
+  roulette:
+    description: Minigame Roulette queue commands
+    usage: /roulette <join|leave|status|ignorepr>
+  hub:
+    description: Send yourself to hub
+    usage: /hub
+    aliases: [lobby]
+  world:
+    description: Teleport to another world on this server
+    usage: /world <name>
+  resetlegendarycooldowns:
+    description: Reset all registered legendary cooldowns for yourself or a target
+    usage: /resetlegendarycooldowns [player]
+    aliases: [rlc]
+  recipes:
+    description: Open the Hydra recipe book
+    usage: /recipes
+    aliases: [recipe]
+  pedestal:
+    description: Place, refill, or remove legendary pedestals
+    usage: /pedestal <place|refill|remove> [recipeId]
+  cosmetics:
+    description: Opens the Hydra player cosmetics menu
+    usage: /cosmetics
+  friend:
+    description: Friend requests and friend list
+    usage: /friend <add|accept|deny|remove|block|unblock|list|requests> ...
+    aliases: [friends]
+  party:
+    description: Temporary lobby party commands
+    usage: /party <create|join|invite|accept|deny|leave|disband|kick|promote|list|requests>
+  social:
+    description: Opens the Social menu with Friends and Party options
+    usage: /social
+  pc:
+    description: Toggle Party Chat
+    usage: /pc
+  tc:
+    description: Toggle Team Chat
+    usage: /tc
+  partychat:
+    description: Toggle Party Chat
+    usage: /partychat
+  teamchat:
+    description: Toggle Team Chat
+    usage: /teamchat
+  team:
+    description: Shows your assigned team
+    usage: /team
+  settings:
+    description: Opens Hydra player settings
+    usage: /settings [effects <full|reduced|minimal>]
+  pversion:
+    description: Show the current HydraMain plugin version
+    usage: /pversion
+  combatchamber:
+    description: Temporary Combat Chamber test commands
+    usage: /combatchamber <testvenom|finish|yes|no|stay|leave|venom wave set <1-4>>
+  koth:
+    description: Configure and run King of the Hill
+    usage: /koth <setpos1|setpos2|start|stop|status|countdown|capture|earlystart|addtime|removetime|instantstart> ...
+  ah:
+    description: Opens the Hydra Auction House
+    usage: /ah [claim|balance|audit|addcoins]
+    aliases: [auction, auctionhouse]
+  sell:
+    description: Opens the cosmetic selling flow
+    usage: /sell [startBidCoins]
+  pay:
+    description: Pay Hydra Coins to another player
+    usage: /pay <player> <amount>
+  shard:
+    description: Open a Shard cosmetic reward crate
+    usage: /shard open
+  battlepass:
+    description: Open the Hydra Battle Pass
+    usage: /battlepass
+    aliases: [bp]
+  spectate:
+    description: Spectate the active match a player is in
+    usage: /spectate <player>
+    aliases: [spec]
+  wins:
+    description: Admin win stat shortcuts
+    usage: /wins reset [all|hg|br] <player>
+  border:
+    description: World border admin controls
+    usage: /border <info|set|add|center|centerhere> ...
+  withdrawheart:
+    description: Turn one heart into a usable item
+    usage: /withdrawheart
+  back:
+    description: Return to your previous command/plugin teleport location
+    usage: /back
+  gm:
+    description: Short form of /gamemode
+    usage: /gm <0|1|2|3|survival|creative|adventure|spectator>
+  feed:
+    description: Restore hunger and saturation
+    usage: /feed [player]
+  heal:
+    description: Restore health
+    usage: /heal [player]
+  fly:
+    description: Toggle personal flight
+    usage: /fly
+  god:
+    description: Toggle personal god mode
+    usage: /god
+  announce:
+    description: Broadcast an announcement
+    usage: /announce <message>
+  revive:
+    description: Revive a match player from their last death snapshot
+    usage: /revive [player]
+  rejoin:
+    description: Rejoin your active Hydra match or spectator session
+    usage: /rejoin
+  leave:
+    description: Leave your active queue or match
+    usage: /leave
+  npc:
+    description: Create and manage Hydra NPCs
+    usage: /npc <create|delete|list|info|teleport|movehere|set|action|dialogue|refresh|reload|help>
+  guide:
+    description: Open Hydra's interactive server guide
+    usage: /guide
+  leaderboard:
+    description: View and manage Hydra leaderboards
+    usage: /leaderboard <wins total|wins hg|wins br|kills|level|coins|place|switch|refresh|reload|clear|forceupdate|debug>
+  rank:
+    description: Manage Hydra+ and staff ranks
+    usage: /rank <give|set|remove|menu> ...
+  warn:
+    description: Warn a player and record the warning
+    usage: /warn <player> <reason>
+  warnings:
+    description: View or clear player warnings
+    usage: /warnings <player> [clear]
+  mute:
+    description: Mute a player from chat
+    usage: /mute <player> <duration|perm> <reason>
+  unmute:
+    description: Remove a player mute
+    usage: /unmute <player>
+  tempban:
+    description: Temporarily ban a player from Hydra
+    usage: /tempban <player> <duration> <reason>
+  unban:
+    description: Remove a temporary profile ban
+    usage: /unban <player>
+  kick:
+    description: Kick a player from the server
+    usage: /kick <player> [reason]
+  report:
+    description: Report a player to staff
+    usage: /report <player> <reason>
+  reports:
+    description: View or clear player reports
+    usage: /reports [list|clear]
+  stats:
+    description: View or administratively reset player stats
+    usage: /stats reset <player|all> [confirmation]
+
+permissions:
+  hgloot.menu:
+    description: Legacy access to /menu
+    default: true
+  hgloot.admin:
+    description: Access to /admin and admin control menus
+    default: op
+  hgloot.boss:
+    description: Access to Hydra boss testing menus and direct boss summons
+    default: op
+  hgloot.admin.minigames:
+    description: Access to Hydra minigame admin menus
+    default: op
+  hgloot.admin.spleef:
+    description: Access to Hydra Spleef admin tools
+    default: op
+  hgloot.admin.roulette:
+    description: Access to Minigame Roulette admin tools
+    default: op
+  hgloot.maintenance:
+    description: Access to toggle Hydra maintenance mode
+    default: op
+  hydra.maintenance.bypass:
+    description: Bypass Hydra maintenance mode login restriction
+    default: false
+  hgloot.playermenu:
+    description: Access to standalone Player Menu
+    default: true
+  hgloot.hub:
+    description: Access to /hub command
+    default: true
+  hgloot.hub.bypass:
+    description: Bypass protected hub restrictions
+    default: false
+  hgloot.npc:
+    description: Access to Hydra NPC admin commands
+    default: op
+  hgloot.leaderboard:
+    description: Access to leaderboard placement and removal commands
+    default: op
+  hgloot.rank:
+    description: Access to Hydra rank management commands
+    default: op
+  hgloot.world:
+    description: Access to /world command
+    default: op
+  hgloot.recipes:
+    description: Access to the Hydra recipe book
+    default: true
+  hgloot.cosmetics.admin:
+    description: Access to cosmetic ownership admin tools
+    default: op
+  hgloot.cosmetic:
+    description: Access to the player cosmetics menu
+    default: true
+  hgloot.wallet.admin:
+    description: Access to admin wallet progression controls
+    default: op
+  hgloot.queue:
+    description: Access to queue commands
+    default: true
+  hgloot.voidroulette:
+    description: Legacy standalone Void Roulette access for admin testing
+    default: false
+  hgloot.bridge:
+    description: Legacy standalone Bridge access for admin testing
+    default: false
+  hgloot.queue.join.solo:
+    description: Permission/rank gate for Solo queue
+    default: true
+  hgloot.queue.join.duo:
+    description: Permission/rank gate for Duo queue
+    default: true
+  hgloot.queue.join.hungergames:
+    description: Permission/rank gate for Hunger Games queue
+    default: true
+  hgloot.spleef:
+    description: Legacy standalone Spleef access for admin testing
+    default: false
+  hgloot.friends:
+    description: Access to friend commands
+    default: true
+  hgloot.party:
+    description: Access to team commands
+    default: true
+  hgloot.queue.admin:
+    description: Access to queue admin commands
+    default: op
+  hgloot.legendary.cooldowns.reset:
+    description: Access to reset all legendary cooldowns
+    default: op
+  hgloot.debug:
+    description: Access to HG loot debug commands
+    default: op
+  hgloot.fun.admin:
+    description: Access to Fun Stuff admin-only tools (nuke/stab/sonic)
+    default: op
+  hgloot.koth:
+    description: Access to KOTH setup and controls
+    default: op
+  hgloot.casino:
+    description: Access to Hydra Auction House
+    default: true
+  hgloot.casino.pay:
+    description: Access to /pay command
+    default: true
+  hgloot.casino.admin:
+    description: Access to Auction House admin economy commands
+    default: op
+  hgloot.border:
+    description: Access to /border controls
+    default: op
+  ultraroyales.command.withdrawheart:
+    description: Access to /withdrawheart
+    default: true
+  hgloot.back:
+    description: Access to /back
+    default: op
+  hgloot.gamemode:
+    description: Access to /gm
+    default: op
+  hgloot.gamemode.spectator:
+    description: Access to /gm spectator only
+    default: op
+  hgloot.feed:
+    description: Access to /feed
+    default: op
+  hgloot.heal:
+    description: Access to /heal
+    default: op
+  hgloot.fly:
+    description: Access to /fly
+    default: op
+  hgloot.god:
+    description: Access to /god
+    default: op
+  hgloot.announce:
+    description: Access to /announce
+    default: op
+  hgloot.br.rejoin:
+    description: Access to /rejoin, /br rejoin, and /hg rejoin
+    default: true
+  hgloot.br.revive:
+    description: Access to /revive, /br revive, and /hg revive
+    default: op
+  hgloot.moderation.menu:
+    description: Access to the limited moderation admin menu
+    default: op
+  hgloot.moderation.warn:
+    description: Access to warn players and view warning history
+    default: op
+  hgloot.moderation.mute:
+    description: Access to mute and unmute players
+    default: op
+  hgloot.moderation.kick:
+    description: Access to kick players
+    default: op
+  hgloot.moderation.tempban:
+    description: Access to temporary profile bans and unbans
+    default: op
+  hgloot.moderation.tempban.override:
+    description: Allow temporary bans against staff-ranked players
+    default: op
+  hgloot.moderation.reports:
+    description: Access to view player reports
+    default: op
+  hgloot.moderation.reports.clear:
+    description: Access to clear player reports
+    default: op
+  hgloot.report:
+    description: Access to submit player reports
+    default: true
+  hgloot.stats.reset:
+    description: Access to fully reset player match stats and level progress
+    default: op
+  rank.hydra:
+    description: Hydra cosmetic player rank
+    default: false
+  rank.hydra_plus:
+    description: Hydra+ cosmetic support rank
+    default: false
+  rank.hydra_plus.2:
+    description: Hydra++ cosmetic support rank
+    default: false
+  rank.hydra_plus.3:
+    description: Hydra+++ cosmetic support rank
+    default: false
+  rank.staff.trial_staff:
+    description: Hydra Trial Staff rank
+    default: false
+    children:
+      hgloot.menu: true
+      hgloot.hub: true
+      hgloot.queue: true
+      hgloot.friends: true
+      hgloot.party: true
+      hgloot.br.rejoin: true
+      hgloot.fly: true
+      hgloot.gamemode.spectator: true
+      hgloot.moderation.menu: true
+      hgloot.moderation.warn: true
+      hgloot.moderation.mute: true
+      hgloot.moderation.kick: true
+      hgloot.moderation.tempban: true
+      hgloot.moderation.reports: true
+  rank.staff.trial_mod:
+    description: Legacy alias for Hydra Trial Staff rank
+    default: false
+    children:
+      rank.staff.trial_staff: true
+  rank.staff.helper:
+    description: Hydra Helper moderation rank
+    default: false
+    children:
+      rank.staff.trial_staff: true
+  rank.staff.media:
+    description: Hydra Media display rank
+    default: false
+  rank.staff.creator:
+    description: Hydra Creator display rank
+    default: false
+  rank.staff.staff:
+    description: Hydra Staff rank
+    default: false
+    children:
+      rank.staff.trial_staff: true
+  rank.staff.mod:
+    description: Hydra Mod staff rank
+    default: false
+    children:
+      rank.staff.staff: true
+      hgloot.hub: true
+  rank.staff.admin:
+    description: Hydra Admin staff rank
+    default: false
+    children:
+      rank.staff.mod: true
+      hgloot.admin: true
+      hgloot.boss: true
+      hgloot.maintenance: true
+      hgloot.queue.admin: true
+      hgloot.hub.bypass: true
+      hgloot.cosmetics.admin: true
+      hgloot.casino.admin: true
+      hgloot.rank: true
+      hgloot.leaderboard: true
+      hgloot.gamemode: true
+      hgloot.feed: true
+      hgloot.heal: true
+      hgloot.fly: true
+      hgloot.god: true
+      hgloot.announce: true
+      hgloot.br.revive: true
+      hgloot.stats.reset: true
+      hgloot.moderation.reports.clear: true
+      hgloot.moderation.tempban.override: true
+  rank.staff.dev:
+    description: Hydra Dev staff rank
+    default: false
+    children:
+      rank.staff.admin: true
+      hgloot.admin: true
+      hgloot.boss: true
+      hgloot.maintenance: true
+      hydra.maintenance.bypass: true
+      hgloot.queue.admin: true
+      hgloot.debug: true
+      hgloot.world: true
+      hgloot.legendary.cooldowns.reset: true
+      hgloot.fun.admin: true
+      hgloot.koth: true
+      hgloot.border: true
+      hgloot.leaderboard: true
+      hgloot.gamemode: true
+      hgloot.feed: true
+      hgloot.heal: true
+      hgloot.fly: true
+      hgloot.god: true
+  rank.staff.owner:
+    description: Hydra Owner staff rank
+    default: false
+    children:
+      rank.staff.dev: true
+      hgloot.admin: true
+      hgloot.boss: true
+      hgloot.maintenance: true
+      hydra.maintenance.bypass: true
+      hgloot.rank: true

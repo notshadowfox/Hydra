@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:max",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:abs",
+      "argument": "hydra_valous:cave_regions"
+    },
+    "argument2": -0.42
+  },
+  "argument2": {
+    "type": "minecraft:max",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_value": 1.0,
+      "from_y": -116,
+      "to_value": -1.0,
+      "to_y": -96
+    },
+    "argument2": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_value": -1.0,
+      "from_y": 0,
+      "to_value": 1.0,
+      "to_y": 20
+    }
+  }
+}

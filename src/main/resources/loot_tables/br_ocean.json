@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "min": 3, "max": 5 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 9,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 7,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }]
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:oak_boat", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:water_bucket", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:fishing_rod", "weight": 5 },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 8 } }]
+        },
+        { "type": "minecraft:item", "name": "minecraft:nautilus_shell", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 2 },
+
+        { "type": "minecraft:item", "name": "minecraft:stone_sword", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:trident", "weight": 1 }
+      ]
+    }
+  ]
+}

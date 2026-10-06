@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "hydra_valous:island_landmass",
+          "points": [
+            {
+              "derivative": 0.0,
+              "location": -0.82,
+              "value": -0.76
+            },
+            {
+              "derivative": 0.05,
+              "location": -0.17,
+              "value": -0.7
+            },
+            {
+              "derivative": 0.25,
+              "location": 0.03,
+              "value": -0.62
+            },
+            {
+              "derivative": 0.55,
+              "location": 0.14,
+              "value": -0.54
+            },
+            {
+              "derivative": 0.65,
+              "location": 0.24,
+              "value": -0.47
+            },
+            {
+              "derivative": 0.45,
+              "location": 0.34,
+              "value": -0.43
+            },
+            {
+              "derivative": 0.24,
+              "location": 0.53,
+              "value": -0.405
+            },
+            {
+              "derivative": 0.1,
+              "location": 0.83,
+              "value": -0.365
+            },
+            {
+              "derivative": 0.0,
+              "location": 1.0,
+              "value": -0.34
+            }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 0.025,
+          "argument2": "minecraft:overworld/erosion"
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.015,
+          "argument2": "minecraft:overworld/ridges"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "min": 3, "max": 5 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 10,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 3, "max": 8 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 9,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 2
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:iron_axe", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:bow", "weight": 7 },
+        { "type": "minecraft:item", "name": "minecraft:crossbow", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_sword", "weight": 1 },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 6, "max": 12 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 12, "max": 18 } }]
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_chestplate", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_leggings", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 5 },
+
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:iron_chestplate", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 3 },
+
+        { "type": "minecraft:item", "name": "minecraft:diamond_helmet", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_boots", "weight": 1 },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }]
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:water_bucket", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:lava_bucket", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:ender_pearl", "weight": 1 }
+      ]
+    }
+  ]
+}

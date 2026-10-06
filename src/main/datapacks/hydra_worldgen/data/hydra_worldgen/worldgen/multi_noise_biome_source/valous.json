@@ -1,0 +1,184 @@
+{
+  "biomes": [
+    {
+      "biome": "hydra_worldgen:valous_mushroom_thicket",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          -1,
+          0.18
+        ],
+        "erosion": [
+          -1,
+          1
+        ],
+        "humidity": [
+          -1,
+          1
+        ],
+        "offset": 0,
+        "temperature": [
+          -1,
+          0.62
+        ],
+        "weirdness": [
+          -1,
+          0.36
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:valous_boilgrounds",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          -1,
+          0.18
+        ],
+        "erosion": [
+          -1,
+          1
+        ],
+        "humidity": [
+          -1,
+          1
+        ],
+        "offset": 0,
+        "temperature": [
+          0.62,
+          1
+        ],
+        "weirdness": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:valous_lush_jungle",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          0.18,
+          0.62
+        ],
+        "erosion": [
+          -1,
+          0.25
+        ],
+        "humidity": [
+          0.22,
+          1
+        ],
+        "offset": 0,
+        "temperature": [
+          -1,
+          0.72
+        ],
+        "weirdness": [
+          -0.55,
+          0.75
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:valous_frozen_caves",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          0.18,
+          0.76
+        ],
+        "erosion": [
+          0.25,
+          1
+        ],
+        "humidity": [
+          -1,
+          0.1
+        ],
+        "offset": 0,
+        "temperature": [
+          -1,
+          -0.22
+        ],
+        "weirdness": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:valous_molten_caverns",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          0.18,
+          0.86
+        ],
+        "erosion": [
+          -1,
+          0.35
+        ],
+        "humidity": [
+          -1,
+          -0.18
+        ],
+        "offset": 0,
+        "temperature": [
+          0.48,
+          1
+        ],
+        "weirdness": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "biome": "hydra_worldgen:valous_sculk_abyss",
+      "parameters": {
+        "continentalness": [
+          -1,
+          1
+        ],
+        "depth": [
+          0.62,
+          1
+        ],
+        "erosion": [
+          -1,
+          1
+        ],
+        "humidity": [
+          -1,
+          1
+        ],
+        "offset": 0,
+        "temperature": [
+          -1,
+          1
+        ],
+        "weirdness": [
+          -1,
+          1
+        ]
+      }
+    }
+  ]
+}

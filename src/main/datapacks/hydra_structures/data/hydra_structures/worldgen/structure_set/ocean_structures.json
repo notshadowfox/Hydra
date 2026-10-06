@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "hydra_structures:pale_boat",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 28,
+    "separation": 10,
+    "salt": 812902,
+    "spread_type": "triangular"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "hydra:font/transition/fade.png",
+      "ascent": 1536,
+      "height": 2048,
+      "chars": ["\ue300", "\ue301", "\ue302", "\ue303", "\ue304", "\ue305", "\ue306", "\ue307"]
+    }
+  ]
+}

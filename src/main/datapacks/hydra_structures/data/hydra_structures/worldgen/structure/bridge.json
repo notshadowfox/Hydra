@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#hydra_structures:bridge_biomes",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "hydra_structures:bridge",
+  "size": 1,
+  "start_height": {
+    "absolute": -5
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

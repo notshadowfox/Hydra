@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "hydra:quartz_wooden_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gilded/quartz_wooden_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_sword"
+    }
+  }
+}

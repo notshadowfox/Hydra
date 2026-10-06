@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "hydra_valous:cave_regions",
+  "min_inclusive": -1.0,
+  "max_exclusive": -0.05,
+  "when_in_range": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:cave_chamber_a",
+            "xz_scale": 0.30,
+            "y_scale": 0.18
+          }
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "hydra_valous:cave_chamber_b",
+            "xz_scale": 0.30,
+            "y_scale": 0.18
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:abs",
+        "argument": "hydra_valous:cave_detail"
+      }
+    },
+    "argument2": -0.18
+  },
+  "when_out_of_range": 64.0
+}

@@ -1,0 +1,209 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    },
+    "cases": [
+      {
+        "when": "hydra:gui/arrow_down",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/arrow_down"
+        }
+      },
+      {
+        "when": "hydra:gui/book_aqua",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/book_aqua"
+        }
+      },
+      {
+        "when": "hydra:gui/book_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/book_orange"
+        }
+      },
+      {
+        "when": "hydra:gui/cross_button",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/cross_button"
+        }
+      },
+      {
+        "when": "hydra:gui/gamemode_switcher",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/gamemode_switcher"
+        }
+      },
+      {
+        "when": "hydra:gui/friends",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/friends"
+        }
+      },
+      {
+        "when": "hydra:gui/party",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/party"
+        }
+      },
+      {
+        "when": "hydra:gui/navigator_exit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/navigator_exit"
+        }
+      },
+      {
+        "when": "hydra:gui/navigator_info",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/navigator_info"
+        }
+      },
+      {
+        "when": "hydra:gui/navigator_overlay",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/navigator_overlay"
+        }
+      },
+      {
+        "when": "hydra:gui/negative_space",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/negative_space"
+        }
+      },
+      {
+        "when": "hydra:gui/crafting_table",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/crafting_table"
+        }
+      },
+      {
+        "when": "hydra:gui/demo_background",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/demo_background"
+        }
+      },
+      {
+        "when": "hydra:gui/dispenser",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/dispenser"
+        }
+      },
+      {
+        "when": "hydra:gui/filter_blank",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/filter_blank"
+        }
+      },
+      {
+        "when": "hydra:gui/hopper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/hopper"
+        }
+      },
+      {
+        "when": "hydra:gui/page_next",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/page_next"
+        }
+      },
+      {
+        "when": "hydra:gui/page_previous",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/page_previous"
+        }
+      },
+      {
+        "when": "hydra:gui/scroller",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/scroller"
+        }
+      },
+      {
+        "when": "hydra:gui/settings_arrow_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/settings_arrow_left"
+        }
+      },
+      {
+        "when": "hydra:gui/settings_arrow_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/settings_arrow_right"
+        }
+      },
+      {
+        "when": "hydra:gui/shulker_box",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/shulker_box"
+        }
+      },
+      {
+        "when": "hydra:gui/tab_item_search",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/tab_item_search"
+        }
+      },
+      {
+        "when": "hydra:gui/tab_items",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/tab_items"
+        }
+      },
+      {
+        "when": "hydra:gui/toggle_switch_off",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/toggle_switch_off"
+        }
+      },
+      {
+        "when": "hydra:gui/toggle_switch_on",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/toggle_switch_on"
+        }
+      },
+      {
+        "when": "hydra:gui/craft_limit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/craft_limit"
+        }
+      },
+      {
+        "when": "hydra:gui/window",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hydra:item/gui/window"
+        }
+      }
+    ]
+  },
+  "oversized_in_gui": true
+}

@@ -1,0 +1,121 @@
+{
+  "format_version": "1.21.6",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "hydra:item/cosmetics/tnt_hat",
+    "particle": "hydra:item/cosmetics/tnt_hat"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        12,
+        11,
+        12
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          5,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            3.5,
+            3.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.5,
+            3.5,
+            7
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            0,
+            7,
+            3.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            3.5,
+            7,
+            7
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            10.5,
+            0,
+            7
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0,
+            7,
+            3.5
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        -18,
+        0
+      ],
+      "translation": [
+        -0.5,
+        0.5,
+        0
+      ],
+      "scale": [
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    "head": {
+      "translation": [
+        -0.75,
+        1.25,
+        -0.75
+      ],
+      "scale": [
+        2.25,
+        2.25,
+        2.25
+      ]
+    }
+  }
+}

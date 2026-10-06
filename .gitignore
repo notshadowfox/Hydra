@@ -1,0 +1,48 @@
+# Build and local state
+.gradle/
+build/
+out/
+bin/
+tmp/
+temp/
+logs/
+crash-reports/
+run/
+target/
+*.log
+*.tmp
+*.bak
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Local server files
+plugins/
+libraries/
+versions/
+cache/
+world/
+world_nether/
+world_the_end/
+*-World-*/
+hg-world-*/
+br-world-*/
+server.properties
+eula.txt
+usercache.json
+ops.json
+whitelist.json
+
+# Generated archives; source assets below are build inputs.
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.zip
+!resourcepack_seed/hydra_base_seed.zip
+!src/main/resources/bossrush/templates/teams-*.zip

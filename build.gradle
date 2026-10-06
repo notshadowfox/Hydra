@@ -1,0 +1,169 @@
+plugins {
+    id 'java'
+}
+
+group = 'hgloot.plugin'
+version = '2.0.257'
+
+def hydraStructuresDatapackSourceDir = layout.projectDirectory.dir('src/main/datapacks/hydra_structures')
+def hydraWorldgenDatapackSourceDir = layout.projectDirectory.dir('src/main/datapacks/hydra_worldgen')
+def hydraValousDatapackSourceDir = layout.projectDirectory.dir('src/main/datapacks/hydra_valous')
+def packagedHydraStructuresDatapack = layout.buildDirectory.file('generated/datapacks/hydra_structures_v4.zip')
+def packagedHydraWorldgenDatapack = layout.buildDirectory.file('generated/datapacks/hydra_worldgen.zip')
+def packagedHydraValousDatapack = layout.buildDirectory.file('generated/datapacks/hydra_valous.zip')
+def hydraResourcePackSeed = layout.projectDirectory.file('resourcepack_seed/hydra_base_seed.zip')
+def hydraResourcePackOverlayDir = layout.projectDirectory.dir('rp_model_staging/normalized_rp_assets')
+def hydraUiIconOverlayDir = layout.projectDirectory.dir('ui_icon_staging')
+def hydraResourcePackWorkDir = layout.buildDirectory.dir('generated/resourcepacks/hydra_server_pack')
+def packagedHydraResourcePack = layout.buildDirectory.file('deploy/resourcepacks/hydra_server_pack.zip')
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url = 'https://repo.papermc.io/repository/maven-public/'
+    }
+    maven {
+        url = 'https://maven.maxhenkel.de/repository/public'
+    }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT'
+    compileOnly 'com.google.code.gson:gson:2.11.0'
+    implementation 'de.maxhenkel.voicechat:voicechat-api:2.1.12'
+
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.mockito:mockito-core:5.18.0'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    testImplementation 'io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT'
+    testImplementation 'org.mockbukkit.mockbukkit:mockbukkit-v1.21:4.110.0'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+tasks.register('packageHydraStructuresDatapack', Zip) {
+    from(hydraStructuresDatapackSourceDir)
+    archiveFileName = packagedHydraStructuresDatapack.get().asFile.name
+    destinationDirectory = packagedHydraStructuresDatapack.get().asFile.parentFile
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+}
+
+tasks.register('packageHydraWorldgenDatapack', Zip) {
+    from(hydraWorldgenDatapackSourceDir) {
+        include 'pack.mcmeta'
+        include 'data/hydra_worldgen/**/*.json'
+        include 'data/hydra_wastes/**/*.json'
+        include 'data/minecraft/**/*.json'
+    }
+    archiveFileName = packagedHydraWorldgenDatapack.get().asFile.name
+    destinationDirectory = packagedHydraWorldgenDatapack.get().asFile.parentFile
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+}
+
+tasks.register('packageHydraValousDatapack', Zip) {
+    from(hydraValousDatapackSourceDir) {
+        include 'pack.mcmeta'
+        include 'data/**/*.json'
+        include 'data/**/*.mcfunction'
+        include 'data/**/*.nbt'
+        exclude '**/.gitkeep'
+    }
+    archiveFileName = packagedHydraValousDatapack.get().asFile.name
+    destinationDirectory = packagedHydraValousDatapack.get().asFile.parentFile
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+}
+
+tasks.register('prepareHydraResourcePack', Copy) {
+    doFirst {
+        delete(hydraResourcePackWorkDir)
+    }
+    from(zipTree(hydraResourcePackSeed.asFile)) {
+        exclude 'pack.mcmeta'
+        // The seed is a fallback. Corrected model/UI assets in the overlay
+        // must win when both sources contain the same resource path.
+        exclude { element ->
+            element.path.startsWith('assets/')
+                && new File(hydraResourcePackOverlayDir.asFile, element.path).isFile()
+        }
+    }
+    from(hydraResourcePackOverlayDir.asFile)
+    if (hydraUiIconOverlayDir.asFile.exists()) {
+        from(hydraUiIconOverlayDir.asFile)
+    }
+    into(hydraResourcePackWorkDir)
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
+tasks.register('packageHydraResourcePack', Zip) {
+    dependsOn(tasks.named('prepareHydraResourcePack'))
+    from(hydraResourcePackWorkDir)
+    archiveFileName = packagedHydraResourcePack.get().asFile.name
+    destinationDirectory = packagedHydraResourcePack.get().asFile.parentFile
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+}
+
+tasks.register('validateHydraResourcePackOverlay') {
+    dependsOn(tasks.named('packageHydraResourcePack'))
+    doLast {
+        def root = hydraResourcePackOverlayDir.asFile.toPath()
+        def archive = new java.util.zip.ZipFile(packagedHydraResourcePack.get().asFile)
+        try {
+            fileTree(hydraResourcePackOverlayDir.asFile) {
+                include 'assets/**'
+            }.files.each { source ->
+                def path = root.relativize(source.toPath()).toString().replace('\\', '/')
+                def entry = archive.getEntry(path)
+                if (entry == null) {
+                    throw new GradleException("Resource-pack overlay asset missing: ${path}")
+                }
+                def archived = archive.getInputStream(entry).withCloseable { it.bytes }
+                if (!java.util.Arrays.equals(archived, java.nio.file.Files.readAllBytes(source.toPath()))) {
+                    throw new GradleException("Resource-pack overlay asset was replaced: ${path}")
+                }
+            }
+        } finally {
+            archive.close()
+        }
+    }
+}
+
+tasks.named('build') {
+    dependsOn(tasks.named('validateHydraResourcePackOverlay'))
+}
+
+processResources {
+    dependsOn(tasks.named('packageHydraStructuresDatapack'))
+    dependsOn(tasks.named('packageHydraWorldgenDatapack'))
+    from(packagedHydraStructuresDatapack) {
+        into 'datapacks'
+    }
+    from(packagedHydraWorldgenDatapack) {
+        into 'datapacks'
+    }
+}
+
+jar {
+    archiveFileName = 'HydraMain.jar'
+}
+

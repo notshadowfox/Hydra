@@ -1,0 +1,133 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "hydra_valous:valous",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "minecraft:deep_ocean",
+              "parameters": {
+                "temperature": [-1.0, 1.0],
+                "humidity": [-1.0, 1.0],
+                "continentalness": [-1.0, 0.18],
+                "erosion": [-1.0, 1.0],
+                "depth": [-1.0, -0.78],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:mushroom_thicket_coast",
+              "parameters": {
+                "temperature": [-1.0, 0.2],
+                "humidity": [-1.0, 1.0],
+                "continentalness": [0.18, 0.19],
+                "erosion": [-1.0, 1.0],
+                "depth": [-1.0, -0.78],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:mushroom_thicket",
+              "parameters": {
+                "temperature": [-1.0, 0.2],
+                "humidity": [-1.0, 1.0],
+                "continentalness": [0.19, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [-1.0, -0.78],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:boilgrounds",
+              "parameters": {
+                "temperature": [0.2, 1.0],
+                "humidity": [-1.0, 1.0],
+                "continentalness": [0.18, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [-1.0, -0.78],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:lush_jungle",
+              "parameters": {
+                "temperature": [-1.0, 1.0],
+                "humidity": [-1.0, -0.05],
+                "continentalness": [-1.0, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [-0.78, 0.45],
+                "weirdness": [-1.0, 0.15],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:molten_caverns",
+              "parameters": {
+                "temperature": [-1.0, 1.0],
+                "humidity": [0.05, 1.0],
+                "continentalness": [-1.0, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [-0.78, 0.48],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:frozen_caves",
+              "parameters": {
+                "temperature": [-1.0, 1.0],
+                "humidity": [-1.0, -0.05],
+                "continentalness": [-1.0, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [-0.2, 0.68],
+                "weirdness": [0.15, 1.0],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "hydra_valous:sculk_abyss",
+              "parameters": {
+                "temperature": [-1.0, 1.0],
+                "humidity": [-1.0, 1.0],
+                "continentalness": [-1.0, 1.0],
+                "erosion": [-1.0, 1.0],
+                "depth": [0.5, 1.0],
+                "weirdness": [-1.0, 1.0],
+                "offset": 0.0
+              }
+            }
+          ]
+        },
+        "settings": "hydra_valous:valous"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      }
+    }
+  }
+}

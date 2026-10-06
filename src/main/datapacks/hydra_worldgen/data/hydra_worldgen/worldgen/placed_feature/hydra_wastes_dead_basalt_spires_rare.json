@@ -1,0 +1,16 @@
+﻿{
+    "feature":  "hydra_worldgen:hydra_wastes_dead_basalt_pillar",
+    "placement":  [
+                      {
+                          "type":  "minecraft:rarity_filter",
+                          "chance":  20
+                      },
+                      {
+                          "type":  "minecraft:count_on_every_layer",
+                          "count":  1
+                      },
+                      {
+                          "type":  "minecraft:biome"
+                      }
+                  ]
+}

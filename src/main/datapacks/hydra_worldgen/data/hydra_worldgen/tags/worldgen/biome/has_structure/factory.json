@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hydra_worldgen:rocklands",
+    "hydra_worldgen:overgrown_fields"
+  ]
+}
